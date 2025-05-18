@@ -1,9 +1,9 @@
-<img src="https://github.com/catherineisonline/base-apparel-coming-soon-frontendmentor/blob/main/images/project-preview.png?raw=true"></img>
+<!-- <img src="https://github.com/catherineisonline/base-apparel-coming-soon-frontendmentor/blob/main/images/project-preview.png?raw=true"></img> -->
 
 
-<h1 align="center">Base Apparel Coming Soon Page</h1>
+<h1 align="center">JFAM Coming Soon Page</h1>
 
-<div align="center">
+<!-- <div align="center">
   <h3>
     <a href="https://catherineisonline.github.io/base-apparel-coming-soon-frontendmentor/" color="white">
       Live
@@ -20,12 +20,12 @@
 </div>
 <div align="center">
    Solution for a challenge from  <a href="https://www.frontendmentor.io/challenges/pricing-component-with-toggle-8vPwRMIC" target="_blank">frontendmentor.io</a>.
-</div>
+</div> -->
 <br>
 <br>
 <br>
 
-## About The Project
+<!-- ## About The Project
 
 <p>This layout looks simple enough, but there are some interesting details to it that will test your CSS skills. You'll also get to practice basic form validation.
 The challenge is to build out this coming soon page and get it looking as close to the design as possible.
@@ -37,7 +37,7 @@ You can use any tools you like to help you complete the challenge. So if you've 
 3. Receive an error message when the form is submitted if the input field is empty & the email address is not formatted correctly.
 
 <br>
-<br> <p>I do not have access to the Figma sketch so the design is not pixel perfect.</p>
+<br> <p>I do not have access to the Figma sketch so the design is not pixel perfect.</p> -->
 
 
 
@@ -51,7 +51,7 @@ You can use any tools you like to help you complete the challenge. So if you've 
 - Desktop-first workflow
 - JavaScript
 
-## What I learned
+<!-- ## What I learned
 
 My second project where I used some email validation process. Another quick project to practice some JavaScript and CSS. Nothing new that I learned however decreased the timing to do the projects in general. Used to take much longer.
 
@@ -65,4 +65,4 @@ My second project where I used some email validation process. Another quick proj
 
 ## Acknowledgments
 
-A big thank you to anyone providing feedback on my <a href="https://www.frontendmentor.io/solutions/base-apparel-coming-soon-page-KdvKyw8NE#comment-62207992f54ba279579c06ec">solution</a>. It definitely helps to find new ways to code and find easier solutions! 
+A big thank you to anyone providing feedback on my <a href="https://www.frontendmentor.io/solutions/base-apparel-coming-soon-page-KdvKyw8NE#comment-62207992f54ba279579c06ec">solution</a>. It definitely helps to find new ways to code and find easier solutions!  -->
