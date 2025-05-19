@@ -71,13 +71,9 @@ h1 span {
   padding-top: 1.2rem;
 }
 #rrjj{
-  /* position: relative; */
   color: #9b9393;
-  /* line-height: 1.8rem; */
   font-weight: 200;
   font-size: 40px;
-  /* width: 85%; */
-  /* padding-top: 1.2rem; */
 }
 #title-h1{
   font-size: 6rem;
@@ -179,7 +175,7 @@ h1 span {
   font-size: 60px;
   font-weight: bold;
   max-width: 409px;
-    max-height: 16px;
+  max-height: 16px;
 }
 
 /* IMG Section */
@@ -211,6 +207,8 @@ h1 span {
   }
 
   .main-container {
+    display: flex;
+    flex-direction: column;
     grid-template-columns: 1fr;
     grid-template-rows: 15% 50% 1fr;
     grid-template-areas:
@@ -239,4 +237,14 @@ h1 span {
     font-size: 2.5rem;
   }
  
+}
+@media (max-width: 768px) {
+  .text-section {
+    max-width: 550px;
+    padding-top:60px
+  }
+
+  #rrjj {
+    display: none;
+  }
 }
