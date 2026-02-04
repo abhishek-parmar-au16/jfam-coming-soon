@@ -1,0 +1,467 @@
+/* VENTURES PAGE RESPONSIVE STYLES */
+
+/* VENTURES PAGE*/
+.ventures-hero {
+    min-height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(180deg, #101C35 20%, #D4A643 100%);
+    text-align: center;
+    margin-top: 30px;
+}
+
+.ventures-hero-content {
+    max-width: 900px;
+    margin-top: 20px;
+}
+
+.ventures-hero h1 {
+    font-size: clamp(2rem, 5vw, 2.8rem);
+    color: #ffffff;
+    margin-bottom: 15px;
+    font-weight: 700;
+}
+
+.ventures-hero p {
+    font-size: clamp(0.95rem, 2vw, 1.1rem);
+    color: #ffffff;
+    line-height: 1.7;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+/* Ventures Stats Section */
+.ventures-stats {
+    padding: 60px 10px;
+    background-color: #ffffff;
+}
+
+.ventures-stats-grid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.ventures-stat-box {
+    flex: 1;
+    max-width: 350px;
+    padding: 40px 30px;
+    background-color: #F7F7F7;
+    border-radius: 12px;
+    text-align: center;
+    /* transition: box-shadow 0.3s ease, transform 0.3s ease; */
+}
+
+/* .ventures-stat-box:hover {
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+    transform: translateY(-5px);
+} */
+
+.ventures-stat-box h3 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #D4A643;
+    margin-bottom: 10px;
+}
+
+.ventures-stat-box p {
+    font-size: 1.1rem;
+    color: #666666;
+    margin: 0;
+}
+
+/* Responsive styles for Ventures Stats */
+@media (max-width: 992px) {
+    .ventures-stats-grid {
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+
+    .ventures-stat-box {
+        flex: 1 1 calc(50% - 20px);
+        max-width: none;
+    }
+}
+
+@media (max-width: 576px) {
+    .ventures-stats {
+        padding: 40px 15px;
+    }
+
+    .ventures-stats-grid {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .ventures-stat-box {
+        flex: 1 1 100%;
+        padding: 30px 20px;
+    }
+
+    .ventures-stat-box h3 {
+        font-size: 2rem;
+    }
+
+    .ventures-stat-box p {
+        font-size: 1rem;
+    }
+}
+
+/* Ventures Map Section */
+.ventures-map-section {
+    padding: 60px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ventures-map-box {
+    width: 1080px;
+    height: 809px;
+    margin: 10px auto;
+    border: 1px solid #000000;
+    background-image: url('../images/ventures/global/world-map.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F4F4F4;
+}
+
+.ventures-infographics {
+    max-width: 100%;
+    max-height: 100%;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.infographic-box {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    z-index: 10;
+    text-align: left;
+    gap: 10px;
+}
+
+.infographic-box img {
+    width: 100px;
+    height: auto;
+    object-fit: contain;
+    flex-shrink: 0;
+}
+
+.infographic-box-aronix img {
+    width: 90px;
+    height: auto;
+}
+
+.infographic-box-jfam img {
+    width: 120px;
+    height: auto;
+}
+
+.infographic-box-mobility img {
+    width: 140px;
+    height: auto;
+}
+
+.infographic-box-aaru img {
+    width: 160px;
+    height: auto;
+}
+
+.infographic-box-care img {
+    width: 140px;
+    height: auto;
+}
+
+.infographic-box-media img {
+    width: 300px;
+    height: auto;
+}
+
+.infographic-box-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
+}
+
+.infographic-box-heading {
+    font-size: 0.85rem;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    margin: 0;
+    line-height: 1.2;
+}
+
+.infographic-box-jfam .infographic-box-heading {
+    color: #26BF19;
+    margin-left: 20px;
+}
+
+.infographic-box-mobility .infographic-box-heading {
+    color: #CD0000;
+    margin-left: 15px;
+}
+
+.infographic-box-aaru .infographic-box-heading {
+    color: #CD00AC;
+    margin-left: 15px;
+}
+
+.infographic-box-aronix .infographic-box-heading {
+    color: #8B00CD;
+    margin-left: 35px;
+}
+
+.infographic-box-care .infographic-box-heading {
+    color: #0077CD;
+    margin-left: 15px;
+    margin-top: 65px;
+}
+
+.infographic-box-text {
+    font-size: 0.75rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    opacity: 0.9;
+    max-width: 300px;
+    margin: 0;
+}
+
+.infographic-box-text-aronix {
+    color: #3B3B3B;
+    margin-left: 35px;
+}
+
+.infographic-box-text-jfam {
+    color: #3B3B3B;
+    margin-left: 20px;
+}
+
+.infographic-box-text-mobility {
+    color: #3B3B3B;
+    margin-left: 15px;
+}
+
+.infographic-box-text-aaru {
+    color: #3B3B3B;
+    margin-left: 15px;
+}
+
+.infographic-box-text-care {
+    color: #3B3B3B;
+    margin-left: 15px;
+
+}
+
+.infographic-box-aronix {
+    top: 68%;
+    left: 48.5%;
+}
+
+.infographic-box-aaru {
+    top: 42%;
+    left: 59.5%;
+}
+
+.infographic-box-jfam {
+    top: 10%;
+    left: 30%;
+}
+
+.infographic-box-mobility {
+    top: 22%;
+    left: 46.5%;
+}
+
+.infographic-box-care {
+    top: 72%;
+    left: 29%;
+}
+
+.infographic-box-media {
+    top: 33%;
+    left: 2.5%;
+}
+
+/* Responsive styles */
+@media (max-width: 1400px) {
+    .ventures-map-box {
+        width: 95%;
+        height: auto;
+        aspect-ratio: 1080 / 809;
+    }
+}
+
+@media (max-width: 1200px) {
+    .ventures-map-box {
+        width: 100%;
+        aspect-ratio: 1080 / 809;
+    }
+
+    .infographic-box img {
+        width: 80px;
+    }
+
+    .infographic-box-heading {
+        font-size: 0.8rem;
+    }
+
+    .infographic-box-text {
+        font-size: 0.7rem;
+        max-width: 200px;
+    }
+}
+
+@media (max-width: 992px) {
+    .ventures-map-box {
+        aspect-ratio: auto;
+        height: auto;
+        min-height: auto;
+    }
+
+    .ventures-infographics {
+        display: none;
+    }
+
+    .ventures-map-box {
+        background-image: none;
+        background-color: transparent;
+        border: none;
+        box-shadow: none;
+    }
+
+    .infographic-box {
+        position: relative;
+        top: auto !important;
+        left: auto !important;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 8px;
+        padding: 15px;
+        background-color: #ffffff;
+        border-radius: 8px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        max-width: 280px;
+    }
+
+    .infographic-box img {
+        width: 100px;
+        height: auto;
+    }
+
+    .infographic-box-content {
+        align-items: center;
+        gap: 5px;
+    }
+
+    .infographic-box-heading {
+        font-size: 1rem;
+        margin: 0 !important;
+    }
+
+    .infographic-box-text {
+        font-size: 0.85rem;
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .ventures-map-section {
+        padding: 40px 20px;
+    }
+
+    .ventures-map-box {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+        gap: 20px;
+        padding: 20px;
+    }
+
+    .infographic-box.infographic-box-media {
+        order: -1;
+        grid-column: 1 / -1;
+        justify-self: center;
+        width: 100%;
+        max-width: 180px;
+        aspect-ratio: 1 / 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+    }
+
+    .infographic-box.infographic-box-media img {
+        width: 120px;
+        height: auto;
+    }
+}
+
+@media (max-width: 768px) {
+    .ventures-map-box {
+        grid-template-columns: 1fr;
+        padding: 15px;
+    }
+
+    .infographic-box {
+        max-width: 100%;
+        padding: 20px;
+    }
+
+    .infographic-box img {
+        width: 120px;
+    }
+
+    .infographic-box-heading {
+        font-size: 1.1rem;
+    }
+
+    .infographic-box-text {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .ventures-hero {
+        min-height: 50vh;
+        padding: 100px 15px 40px;
+    }
+
+    .ventures-map-section {
+        padding: 30px 10px;
+    }
+
+    .ventures-map-box {
+        gap: 15px;
+        padding: 10px;
+    }
+
+    .infographic-box {
+        padding: 15px;
+    }
+
+    .infographic-box img {
+        width: 80px;
+    }
+
+    .infographic-box-heading {
+        font-size: 1rem;
+    }
+
+    .infographic-box-text {
+        font-size: 0.8rem;
+    }
+}
